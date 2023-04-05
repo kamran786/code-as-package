@@ -1,5 +1,8 @@
 import pandas as pd
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
 
 data = {
   "calories": [420, 380, 390],
@@ -9,7 +12,8 @@ data = {
 
 def main():
   df = pd.DataFrame(data)
-
+  name = os.getenv("Name")
+  print(f"My name is {name}")
   print(df)
 
 if __name__ == "__main__":
