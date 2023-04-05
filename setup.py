@@ -6,7 +6,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='my_code_as_package',
-    version='0.4',
+    version='0.5',
     description='My awesome package',
     author='Kamran Ahmad',
     author_email='kahmad595@gmail.com',
@@ -14,7 +14,7 @@ setup(
     install_requires=requirements,
     entry_points={
         'console_scripts': [
-            'my_code_as_pkg=src.__main__:__main__'
+            'my_code_as_pkg=src.__main__:main'
         ]
     },
 )
