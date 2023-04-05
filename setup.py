@@ -6,7 +6,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='my_code_as_package',
-    version='0.3',
+    version='0.4',
     description='My awesome package',
     author='Kamran Ahmad',
     author_email='kahmad595@gmail.com',
