@@ -11,6 +11,7 @@ data = {
 
 
 def main():
+  print("name")
   df = pandas.DataFrame(data)
   name = os.getenv("Name")
   print(f"My name is {name}")
