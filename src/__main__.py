@@ -1,4 +1,4 @@
-import pandas as pandas
+import pandas
 import os
 from dotenv import load_dotenv
 
