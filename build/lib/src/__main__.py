@@ -10,8 +10,15 @@ data = {
 }
 
 
-def main():
-  print("name-kamran")
+# def main():
+#   print("name-kamran")
+#   df = pandas.DataFrame(data)
+#   name = os.getenv("Name")
+#   print(f"My name is {name}")
+#   print(df)
+
+def my_main():
+  print("I'm in my_main name-kamran")
   df = pandas.DataFrame(data)
   name = os.getenv("Name")
   print(f"My name is {name}")
@@ -19,4 +26,4 @@ def main():
 
 if __name__ == "__main__":
   #load data into a DataFrame object:
-  main()
+  my_main()
