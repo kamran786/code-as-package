@@ -18,18 +18,8 @@ data = {
 #   print(df)
 
 def my_main():
-  import pandas
-  import os
-  from dotenv import load_dotenv
 
-  load_dotenv()
-
-  data = {
-    "calories": [420, 380, 390],
-    "duration": [50, 40, 45]
-  }
-
-  print("I'm in my_main name-kamran-test-2")
+  print("I'm in my_main name-kamran-test-3")
   df = pandas.DataFrame(data)
   name = os.getenv("Name")
   print(f"My name is {name}")
